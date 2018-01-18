@@ -5,10 +5,10 @@ This module is created for [Totemcss](https://www.github.com/toolbarthomas/totem
 
 ## Installation
 
-Install totem-module-svgsprite with [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+Install totemcss-module-svgsprite with [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-$ npm install totem-module-svgsprite --save
+$ npm install totemcss-module-svgsprite --save
 ```
 
 ## How to include svg-sprite-injector.twig

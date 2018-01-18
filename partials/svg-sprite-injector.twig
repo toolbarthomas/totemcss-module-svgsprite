@@ -1,0 +1,9 @@
+{% set directory = (base|default('totem_submodules::')) %}
+
+<script>
+    {% include directory ~ '/totemcss-module.svgsprite/javascripts/lib/svg-sprite-injector/svg-sprite-injector.min.js' ignore missing %}
+
+    svgSpriteInjector("{{ svg_sprite|default('/totemcss/main/images/layout/svg-sprite.svg') }}", {
+        revision: "{{ revision|default('now'|date('Y-m-d--H:i:s')) }}"
+    });
+</script>
